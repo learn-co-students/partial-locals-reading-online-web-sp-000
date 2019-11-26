@@ -1,4 +1,4 @@
-# Partials with Locals 
+# Partials with Locals
 
 ## Objectives
 
@@ -18,6 +18,7 @@ make these implicit assumptions explicit.  In the following example, we'll
 unpack exactly what locals are and how they're used.
 
 ## Lesson
+
 
 Take a look at the included repo.  You should notice the same piece of view code in a few places.
 
