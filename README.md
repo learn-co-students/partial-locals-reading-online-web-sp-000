@@ -9,6 +9,7 @@
 
 ## Introduction
 
+
 Partials help us break our code up into reusable chunks.  They also often have
 implicit dependencies that can lead to bugs.  For example, what if a partial
 assumes that a `@user` variable is present. If the point is to _reuse_
