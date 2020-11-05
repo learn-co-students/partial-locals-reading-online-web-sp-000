@@ -1,7 +1,8 @@
 Information About the Post
-<ul>
-  <li> <%= @author.name %></li>
-  <li> <%= @author.hometown %></li>
-</ul>
+
+<%= render partial: "authors/author", locals: {post_author: @post.author} %>
+<%# We can use locals (above) to make sure @authors is referenced to in the authors/_author html form %>
+<%# render 'authors/author' %>
+
 <%= @post.title %>
 <%= @post.content %>
