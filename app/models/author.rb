@@ -8,7 +8,7 @@
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
-
+#submit
 class Author < ActiveRecord::Base
   has_many :posts
 end
